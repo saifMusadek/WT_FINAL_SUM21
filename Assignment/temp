@@ -1,0 +1,44 @@
+% r = 1; L = 2^2r = 2. 
+% BASK, BFSK, BPSK 
+it_stream = [1 0 1 1 0 1 0 1];
+% if r = 1 then we will consiter 1 bit at a time
+% similarly if r = 2 we will consider 2 bits at a time and in this case 10 at a time then 11
+fs = 2000;
+%fs = sampling frequency
+ % as we are doing one bits at a time then we can only see 2 data variations i.e L = 2^r = 2
+%'0' -> amplitude a0 = 1
+ %'1' -> amplitude a1 = 2 v
+ % in ask frequency is constant and here let frequency = 4hz, p = 0
+ % BFSK:
+ % frequency will vary
+ % '0' -> frequency f0 = 6hz
+ % '1' -> frequency f1 = 3hz
+ 
+ %BPSK: constant is amplitude and frequency
+ % '0' -> p0 = pi
+ % '0' -> p1 = 0
+ % f = 4hz, a = 1
+ % BFSK constants will be a = 1v and p = 0;
+ nt = length(bit_stream); % number of bits
+ pd = 1; % pulse (signal element) duration
+ a0 = 1;
+ a1 = 2; 
+ f0 = 6;
+ f1 = 3;
+ p0 = pi;
+ p1 = 0;
+ a = 1;
+ f = 4;
+ p = 0;
+ for i = 1:nt 
+end
+ for i = 1:nt
+if bit_stream(i) == 0
+bask = a0*sin(2*pi*f*t + p);
+else 
+bask = a1*sin(2*pi*f*t + p);
+end
+plot(t, bask, 'linewidth', 2)
+end
+Undefined function or variable 't'.
+
