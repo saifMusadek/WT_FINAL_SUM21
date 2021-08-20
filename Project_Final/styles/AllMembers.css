@@ -1,0 +1,71 @@
+.all-members {
+  background-color: whitesmoke;
+  margin-left: 220px;
+  margin-top: -1000px;
+  margin-right: -1200px;
+  padding-bottom: 530px;
+  padding-right: 4000px;
+  display: flex;
+  flex-direction: row;
+}
+
+table {
+  margin-top: 15px;
+  margin-left: 100px;
+}
+
+.member-edit {
+  background-color: whitesmoke;
+  margin-left: 220px;
+
+  padding-bottom: 530px;
+  display: flex;
+  flex-direction: row;
+}
+
+.table-type {
+  margin-left: 20px;
+}
+
+.form-group,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+
+.btn-remove {
+  background-color: #7c260c;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 2px 2px;
+}
+
+table {
+  margin-left: 350px;
+}

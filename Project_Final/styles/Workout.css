@@ -1,0 +1,41 @@
+.workout-plans {
+  background-color: whitesmoke;
+  margin-left: 220px;
+  margin-top: -1020px;
+  padding-bottom: 620px;
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper {
+  background-color: whitesmoke;
+  list-style-type: none;
+  padding: 0;
+  border-radius: 3px;
+}
+.form-row {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5em;
+}
+.form-row > label {
+  padding: 0.5em 1em 0.5em 0;
+  flex: 1;
+}
+.form-row > input {
+  flex: 2;
+}
+.form-row > input,
+.form-row > button {
+  padding: 0.5em;
+}
+.form-row > button {
+  background: gray;
+  color: white;
+  border: 0;
+}

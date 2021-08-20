@@ -1,0 +1,143 @@
+/* default css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.clear::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+.mid-contain {
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* header part */
+
+.topbar {
+  color: #ddd;
+  background-color: #555;
+  line-height: 30px;
+}
+.email {
+  margin-right: 10px;
+  margin-left: 70px;
+}
+.phone {
+}
+.icon {
+  margin-right: 60px;
+  letter-spacing: 10px;
+  font-size: 15px;
+}
+
+/* menu */
+
+.menu {
+}
+.header-logo {
+  margin-top: ;
+  margin-left: 30px;
+}
+.header-menu {
+}
+.primary-menu {
+  text-align: center;
+}
+.primary-menu ul {
+}
+.primary-menu ul li {
+  display: inline-block;
+}
+.primary-menu ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px;
+  color: #555;
+  line-height: 25px;
+}
+.primary-menu ul li a:hover {
+  color: black;
+}
+.header-button {
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff !important;
+  margin-right: 15px;
+}
+.header-button:hover {
+  background-color: aqua;
+}
+.header-button2 {
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff !important;
+  margin-right: 15px;
+}
+.header-button2:hover {
+  background-color: aqua;
+}
+
+/* DROPDOWN */
+
+.primary-menu ul li {
+  position: relative;
+}
+.primary-menu ul li ul {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 150px;
+  background: #fff;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+  transform: scaleY(0);
+}
+.primary-menu ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  transform: scaleY(1);
+}
+/* banner */
+.banner {
+  background-image: url(download.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px;
+}
+.banner-text {
+  font-size: 25px;
+  color: #fff;
+}
+img {
+  vertical-align: ;
+}

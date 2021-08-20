@@ -1,0 +1,146 @@
+body {
+  background-color: rgb(92, 78, 78);
+}
+.header {
+  height: auto;
+  display: flex;
+  background-color: white;
+}
+.left-sidebar {
+  color: rgb(208, 215, 240);
+
+  font-size: 20px;
+  max-width: 220px;
+  max-height: auto;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(40, 36, 36);
+}
+
+.home-page {
+  background-color: whitesmoke;
+  margin-left: 220px;
+  margin-top: -999px;
+  padding-bottom: 530px;
+  display: flex;
+  flex-direction: row;
+}
+
+.mini-squares {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.Members {
+  background-color: grey;
+  flex: 1;
+  border: 3px solid black;
+  margin-left: 15px;
+  margin-right: 1000px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+.Staffs {
+  background-color: grey;
+  flex: 1;
+  border: 3px solid black;
+  padding-bottom: 15px;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 1000px;
+  padding-left: 15px;
+}
+
+.Profit {
+  background-color: grey;
+  flex: 1;
+  border: 3px solid black;
+  padding-bottom: 15px;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 1000px;
+  padding-left: 15px;
+}
+
+.Loss {
+  background-color: grey;
+  flex: 1;
+  border: 3px solid black;
+  padding-bottom: 15px;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 1000px;
+  padding-left: 15px;
+}
+
+.profile {
+  flex: 1;
+  border-bottom: 2px solid black;
+  margin: 5px;
+  padding-left: 25px;
+}
+
+.basic {
+  border-bottom: black;
+  flex: 1;
+  padding-left: 25px;
+  border-bottom: 2px solid black;
+}
+
+.Admin-role {
+  border-top: black;
+  flex: 1;
+  padding-left: 25px;
+  border-bottom: 2px solid black;
+}
+
+p {
+  cursor: text;
+}
+.no-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.logo {
+  flex: 1;
+  align-content: center;
+}
+img {
+  border-radius: 4px;
+  padding: 5px;
+  height: 100px;
+  width: 100px;
+}
+.gym-name {
+  flex: 9;
+
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: "Modesto", Times, serif;
+}
+
+.logout-button {
+  margin-top: 70px;
+  margin-left: 100px;
+
+  flex: 2;
+}
+
+button {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.statistic-pic {
+  flex: 1;
+}

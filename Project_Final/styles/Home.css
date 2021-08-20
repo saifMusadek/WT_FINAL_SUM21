@@ -1,0 +1,12 @@
+.home {
+  background-color: whitesmoke;
+  margin-left: 220px;
+  margin-top: -1049px;
+  padding-bottom: 580px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 200%;
+}

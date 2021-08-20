@@ -1,0 +1,8 @@
+.create-group {
+  background-color: whitesmoke;
+  margin-left: 220px;
+  margin-top: -1100px;
+  padding-bottom: 730px;
+  display: flex;
+  flex-direction: row;
+}
